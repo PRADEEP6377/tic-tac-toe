@@ -69,7 +69,7 @@ body{
 }
 #msg{
     color: rgb(120, 20, 220);
-    font-size: 60px;
+    font-size: 10vmin;
     text-align: center;
     text-shadow: #cdeac0;
     text-decoration: dotted;
