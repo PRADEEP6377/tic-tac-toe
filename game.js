@@ -23,7 +23,8 @@ let count=0;
 boxes.forEach((box) =>{
     box.addEventListener("click",() =>{
         console.log("box was clicked");
-        count = count+1;
+        
+        
         if (turno){
             box.innerText="O";
             turno=false;
@@ -34,11 +35,13 @@ boxes.forEach((box) =>{
         }
         box.disabled=true;
         checkWinner();
+        count = count+1;
         if(count===9)
         {
             console.log("match tie");
-            alert("MATCH TIE");
-            resetGame();
+            msg.innerText =`MATCH DRAW START NEW GAME`;
+
+            
         }
     });
 
@@ -71,7 +74,7 @@ const checkWinner = () =>{
                 console.log("winner found");
                 
                 showWinner(pos1Val);
-                alert(`winner found`);
+                
             
 
             }
