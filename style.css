@@ -49,16 +49,16 @@ body{
     
 }
 #resetbt{
-    height: 7vmin;
-    width: 18vmin;
+    height: 10vmin;
+    width: 20vmin;
     color: burlywood;
     background-color: black;
     border-radius: 0.5rem;
 }
 #newg{
     margin-top: 3vmin;
-    height: 7vmin;
-    width: 18vmin;
+    height: 10vmin;
+    width: 20vmin;
     color: burlywood;
     background-color: black;
     border-radius: 0.5rem;
@@ -69,7 +69,7 @@ body{
 }
 #msg{
     color: rgb(120, 20, 220);
-    font-size: 10vmin;
+    font-size: 8vmin;
     text-align: center;
     text-shadow: #cdeac0;
     text-decoration: dotted;
